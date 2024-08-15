@@ -1,7 +1,3 @@
-Certainly! Below is a template for your GitHub repository's `README.md` file. It includes sections for the project overview, installation, usage, and more.
-
-### README.md Template
-```markdown
 # Gold and Silver Prices Web App
 
 ![License](https://img.shields.io/github/license/Ajay-Dhangar/gold-price-tracker)
