@@ -1,0 +1,120 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define color variables for easy theme management */
+:root {
+    --dark-bg-color: #4d5061;
+    --light-bg-color: #ffffff;    
+    --light-text: #ffffff;
+    --dark-text: #4d5061;
+    --text: #000000;
+    --btn-bg-color: #48bf84;
+    --btn-hover: #3a9d5d;
+    --btn-active: #2f7a4e;
+    --btn-text: #ffffff;
+    --btn-shadow: 0 5px 0 #3a9d5d;
+    --completed-bg: #f2f2f2;
+    --completed-text: #b3b3b3;    
+}
+
+/* Style the body to center content and set the background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark-bg-color);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Header styling */
+header {
+    background-color: var(--dark-bg-color);
+    color: var(--light-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Main content styling */
+main {
+    background-color:  var(--btn-bg-color);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 10px;
+}
+
+/* Flexbox container for price boxes */
+.price-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+/* Individual price box styling */
+.price-box {
+    background-color: var(--light-bg-color);
+    border-radius: 10px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Price box header styling */
+.price-box h2 {
+    color: var(--completed-text);
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Styling for the details list */
+#goldDetails ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+/* List item styling */
+#goldDetails ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: var(--dark-bg-color);
+    color: var(--light-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+/* Footer text spacing */
+footer p {
+    margin-right: 10px;
+}
+
+/* Footer link styling */
+footer a {
+    color: var(--btn-bg-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff1;
+}
